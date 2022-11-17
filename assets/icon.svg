@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="MSTDN_LNK_VRF_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.link-verification-for-mastodon-0{fill:url(#MSTDN_LNK_VRF_ID_1_);}
+	.link-verification-for-mastodon-1{fill:#FFFFFF;}
+</style>
+<linearGradient id="MSTDN_LNK_VRF_ID_1_" gradientUnits="userSpaceOnUse" x1="150" y1="-15.9596" x2="150" y2="254.1581">
+	<stop  offset="0" style="stop-color:#00FF73"/>
+	<stop  offset="1" style="stop-color:#5D50E7"/>
+</linearGradient>
+<path class="link-verification-for-mastodon-0" d="M206.9,41.2c-24.4-4.7-85.7-3.3-85.7-3.3c-36,0-76.1,18.5-76.1,66c0,0,0,53.3,4,80.8
+	c3.8,26.2,7.7,52.9,43.5,68.3s72.6,9.6,97.8-3l0.2-17.8c-24.3,4.2-51.6,7.2-65.2,0.7s-16-14.5-17-27.8c14.1,5.4,33.6,7.4,59.6,7.1
+	c58.9-1.8,86-15.4,86.8-65.8V91.4C254.9,61.8,227.3,45.2,206.9,41.2z"/>
+<g>
+	<polygon class="link-verification-for-mastodon-1" points="139,163.4 105.8,130.3 119.2,116.8 139,136.6 188.4,87.2 201.8,100.6"/>
+</g>
+</svg>
