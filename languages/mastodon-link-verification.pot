@@ -31,7 +31,7 @@ msgid "https://over-engineer.com/"
 msgstr ""
 
 #. URI of the plugin
-msgid "https://over-engineer.com/plugins/link-verification-for-mastodon"
+msgid "https://over-engineer.com/projects/link-verification-for-mastodon"
 msgstr ""
 
 #. Name of the plugin

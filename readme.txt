@@ -1,6 +1,6 @@
 === Link Verification for Mastodon ===
 Author URI: https://over-engineer.com/
-Plugin URI: https://over-engineer.com/plugins/link-verification-for-mastodon
+Plugin URI: https://over-engineer.com/projects/link-verification-for-mastodon
 Contributors: overengineer
 Tags: mastodon, fediverse, social
 Requires at least: 4.4
