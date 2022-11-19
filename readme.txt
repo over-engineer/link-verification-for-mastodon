@@ -52,6 +52,6 @@ If you have spotted any bugs, or would like to request additional features from 
 
 == Changelog ==
 
-= 1.0: November 16, 2022 =
+= 1.0: November 19, 2022 =
 
 * Initial version.
