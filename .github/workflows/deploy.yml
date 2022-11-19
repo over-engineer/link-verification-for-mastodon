@@ -1,9 +1,8 @@
 name: deploy-to-plugin-repository
 
 on:
-  push:
-    release:
-      types: [published]
+  release:
+    types: [published]
 
 jobs:
   release:
