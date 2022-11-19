@@ -42,6 +42,10 @@ Automatic installation is the easiest option — WordPress will handle the file 
 
 == Frequently Asked Questions ==
 
+= What’s my Mastodon username? =
+
+A Mastodon account is formed like an email account: `@name@some.mastodon.instance`. You need to enter the whole thing (including your instance) in the plugin’s settings.
+
 = Where can I report any bugs and/or request additional features? =
 
 If you have spotted any bugs, or would like to request additional features from the plugin, please [file an issue](https://github.com/over-engineer/link-verification-for-mastodon/issues).
