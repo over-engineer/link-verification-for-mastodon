@@ -6,7 +6,7 @@ Tags: mastodon, fediverse, social
 Requires at least: 4.4
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable Tag: 1.0.0
+Stable Tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,15 @@ If you have spotted any bugs, or would like to request additional features from 
 1. Plugin settings
 
 == Changelog ==
+
+= 1.0.2: November 19, 2022 =
+
+* Bump version number
+
+= 1.0.1: November 19, 2022 =
+
+* Update readme.txt
+* Update screenshot
 
 = 1.0: November 19, 2022 =
 
