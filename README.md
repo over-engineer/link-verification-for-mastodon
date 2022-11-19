@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="128" height="128" src="assets/icon.svg" />
+    <img width="128" height="128" src=".wordpress-org/icon.svg" />
 </p>
 
 # Link Verification for Mastodon
@@ -43,7 +43,7 @@ and you won’t need to leave your web browser.
 
 ## ⌨️ Usage
 
-![screenshot](assets/screenshot-1.png)
+![screenshot](.wordpress-org/screenshot-1.png)
 
 After [installation and activation](#-installation):
 
