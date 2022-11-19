@@ -4,12 +4,10 @@
 
 # Link Verification for Mastodon
 
-<!--
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
--->
 
 🐘 An unofficial WordPress plugin to quickly verify a link on your Mastodon profile.
 
@@ -23,7 +21,6 @@
 
 ## 📦 Installation
 
-<!--
 ### Automatic installation
 
 Automatic installation is the easiest option — WordPress will handle the file transfer,
@@ -36,7 +33,6 @@ and you won’t need to leave your web browser.
 5. Activate the plugin through the “Plugins” menu in WordPress
 
 ### Manual installation
--->
 
 1. Upload the entire `link-verification-for-mastodon` folder to the `wp-content/plugins/` directory
 2. Activate the plugin through the “Plugins” menu in WordPress

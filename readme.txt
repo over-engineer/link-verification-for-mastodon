@@ -48,7 +48,7 @@ If you have spotted any bugs, or would like to request additional features from 
 
 == Screenshots ==
 
-1. Widget settings
+1. Plugin settings
 
 == Changelog ==
 
