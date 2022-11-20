@@ -8,7 +8,9 @@
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
+<!--
 [![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
+-->
 
 🐘 An unofficial WordPress plugin to quickly verify a link on your Mastodon profile.
 
