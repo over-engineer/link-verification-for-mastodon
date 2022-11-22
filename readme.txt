@@ -6,7 +6,7 @@ Tags: mastodon, fediverse, social
 Requires at least: 4.4
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable Tag: 1.0.2
+Stable Tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,10 @@ If you have spotted any bugs, or would like to request additional features from 
 1. Plugin settings
 
 == Changelog ==
+
+= 1.0.3: November 22, 2022 =
+
+* Sanitize text fields to automatically trim any leading and/or trailing whitespace
 
 = 1.0.2: November 19, 2022 =
 
