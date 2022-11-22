@@ -30,13 +30,28 @@ function add_admin_menu() {
     );
 }
 
+function sanitize( $options ) {
+    foreach ( $options as $key => $option ) {
+        $options[ $key ] = sanitize_text_field( $option );
+    }
+
+    return $options;
+}
+
 function settings_init() {
     if ( ! current_user_can( 'manage_options' ) ) {
         // Current user does not have a role that allows them to access these settings
         return;
     }
 
-    register_setting( 'mastodon_link_verification_plugin_page', 'mastodon_link_verification_settings' );
+    register_setting(
+        'mastodon_link_verification_plugin_page',
+        'mastodon_link_verification_settings',
+        array(
+            'type'              => 'array',
+            'sanitize_callback' => 'OverEngineer\Mastodon\LinkVerification\Admin\sanitize',
+        )
+    );
 
     add_settings_section(
         'mastodon_link_verification_main_section',
