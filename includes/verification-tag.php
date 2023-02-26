@@ -29,19 +29,18 @@ function format_mastodon_url( $username, $instance ) {
 /**
  * Add the verification `<link>` tag in `<head>`.
  *
+ * @param string $mastodon_username Mastodon username.
+ *
  * @return void
  */
-function add_verification_tag() {
-    $options           = get_option( 'mastodon_link_verification_settings' );
-    $mastodon_username = apply_filters( 'mastodon_link_verification_username', $options['mastodon_username'] );
-
+function add_verification_tag( $mastodon_username ) {
     if ( empty( $mastodon_username ) ) {
         // Mastodon username is not set, bail early
         return;
     }
 
     // Allow usernames formatted as either `@username@instance` or `username@instance`
-    $mastodon_username = Utils::strip_prefix( '@', $mastodon_username );
+    $mastodon_username = Utils::strip_prefix( '@', trim( $mastodon_username ) );
 
     $username_parts = explode( '@', $mastodon_username );
 
@@ -58,4 +57,26 @@ function add_verification_tag() {
     printf( '<link rel="me" href="%s" />' . PHP_EOL, esc_attr( $url ) );
 }
 
-add_action( 'wp_head', 'OverEngineer\Mastodon\LinkVerification\add_verification_tag' );
+/**
+ * Add the verification `<link>` tag in `<head>`.
+ *
+ * @return void
+ */
+function add_verification_tags() {
+    $options           = get_option( 'mastodon_link_verification_settings' );
+    $mastodon_username = apply_filters( 'mastodon_link_verification_username', $options['mastodon_username'] );
+
+    if ( empty( $mastodon_username ) ) {
+        // Mastodon username is not set, bail early
+        return;
+    }
+
+    // Support for comma-separated usernames
+    $mastodon_usernames = explode( ',', $mastodon_username );
+
+    foreach ( $mastodon_usernames as $username ) {
+        add_verification_tag( $username );
+    }
+}
+
+add_action( 'wp_head', 'OverEngineer\Mastodon\LinkVerification\add_verification_tags' );
