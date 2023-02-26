@@ -6,7 +6,7 @@ Tags: mastodon, fediverse, social
 Requires at least: 4.4
 Tested up to: 6.1
 Requires PHP: 5.6.20
-Stable Tag: 1.0.3
+Stable Tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ Automatic installation is the easiest option — WordPress will handle the file 
 
 A Mastodon account is formed like an email account: `@name@some.mastodon.instance`. You need to enter the whole thing (including your instance) in the plugin’s settings.
 
+= Can I use this plugin to verify multiple Mastodon accounts? =
+
+Yes, you can. Just enter all usernames separated by a comma.
+
 = Where can I report any bugs and/or request additional features? =
 
 If you have spotted any bugs, or would like to request additional features from the plugin, please [file an issue](https://github.com/over-engineer/link-verification-for-mastodon/issues).
@@ -55,6 +59,10 @@ If you have spotted any bugs, or would like to request additional features from 
 1. Plugin settings
 
 == Changelog ==
+
+= 1.1.0: February 26, 2023 =
+
+* Add support for multiple Mastodon usernames
 
 = 1.0.3: November 22, 2022 =
 
