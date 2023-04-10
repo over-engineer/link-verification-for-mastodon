@@ -1,0 +1,14 @@
+.plugins .plugin-title .overengineer-link-verification-action-link .dashicons {
+    float: none;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+}
+
+.plugins .plugin-title .overengineer-link-verification-action-link .dashicons::before {
+    padding: inherit;
+    background-color: inherit;
+    box-shadow: none;
+    font-size: inherit;
+    color: inherit;
+}
