@@ -4,7 +4,6 @@
 
 # Link Verification for Mastodon
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/over-engineer/link-verification-for-mastodon/deploy-to-plugin-repository)](https://github.com/over-engineer/link-verification-for-mastodon/actions/workflows/deploy.yml)
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/link-verification-for-mastodon)](https://wordpress.org/plugins/link-verification-for-mastodon/)
