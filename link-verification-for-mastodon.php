@@ -93,7 +93,6 @@ if ( ! class_exists( 'Plugin' ) ) :
             require_once __DIR__ . '/includes/class-utils.php';
 
             require_once __DIR__ . '/admin/settings.php';
-            require_once __DIR__ . '/admin/donation.php';
             require_once __DIR__ . '/includes/verification-tag.php';
         }
 

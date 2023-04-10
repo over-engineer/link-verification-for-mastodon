@@ -64,9 +64,9 @@ Supporting me is 100% optional. The plugin is free and will always be free. Howe
 
 == Changelog ==
 
-= 1.1.1: April 10, 2023 =
+= 1.1.1: April 11, 2023 =
 
-* Add donation link to readme.txt and the plugin’s action links
+* Add donation link to readme.txt and the plugin’s settings page
 
 = 1.1.0: February 26, 2023 =
 
