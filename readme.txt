@@ -4,9 +4,9 @@ Plugin URI: https://over-engineer.com/projects/link-verification-for-mastodon
 Contributors: overengineer
 Tags: mastodon, fediverse, social
 Requires at least: 4.4
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 5.6.20
-Stable Tag: 1.1.0
+Stable Tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,11 +54,19 @@ Yes, you can. Just enter all usernames separated by a comma.
 
 If you have spotted any bugs, or would like to request additional features from the plugin, please [file an issue](https://github.com/over-engineer/link-verification-for-mastodon/issues).
 
+= How can I support the developer of this plugin? =
+
+Supporting me is 100% optional. The plugin is free and will always be free. However, if you’d like to support me, it would mean the world to me and help me to keep creating useful plugins. If you’d like to contribute, please consider [buying me a coffee](https://ko-fi.com/overengineer)! ❤️
+
 == Screenshots ==
 
 1. Plugin settings
 
 == Changelog ==
+
+= 1.1.1: April 15, 2023 =
+
+* Add donation link to readme.txt and the plugin’s settings page
 
 = 1.1.0: February 26, 2023 =
 

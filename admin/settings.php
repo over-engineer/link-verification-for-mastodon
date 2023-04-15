@@ -11,6 +11,8 @@
 
 namespace OverEngineer\Mastodon\LinkVerification\Admin;
 
+use const OverEngineer\Mastodon\LinkVerification\VERSION;
+
 if ( ! defined( 'ABSPATH' ) ) {
     die( 'Forbidden' );
 }
@@ -115,5 +117,77 @@ function options_page() {
     <?php
 }
 
+/**
+ * Check if the current page is the plugin settings page.
+ *
+ * @return bool
+ */
+function is_plugin_settings_page() {
+    if ( ! is_admin() ) {
+        return false;
+    }
+
+    $screen = get_current_screen();
+
+    if ( empty( $screen ) ) {
+        return false;
+    }
+
+    return $screen->id === 'settings_page_link-verification-for-mastodon';
+}
+
+/**
+ * Add a donation link to the left side of the admin footer.
+ *
+ * @param string $text The existing footer text.
+ *
+ * @return string The modified footer text including the donation link.
+ */
+function admin_footer_donation( $text ) {
+    if ( ! is_plugin_settings_page() ) {
+        return $text;
+    }
+
+    return sprintf(
+        '<span id="overengineer-link-verification-footer">%s</span>',
+        sprintf(
+        /* translators: 1: Developer username, 2: Donation link. */
+            __( 'Developed with ❤️ by %1$s | Want to support me? %2$s', 'link-verification-for-mastodon' ),
+            sprintf(
+                '<a href="%s" target="_blank">%s</a>',
+                esc_url( 'https://fosstodon.org/@overengineer' ),
+                esc_html( '@overengineer' )
+            ),
+            sprintf(
+                '<a href="%s" target="_blank">%s</a>',
+                esc_url( 'https://ko-fi.com/overengineer' ),
+                esc_html__( 'Buy me a coffee ☕', 'link-verification-for-mastodon' )
+            )
+        )
+    );
+}
+
+/**
+ * Add plugin version to the right side of the admin footer.
+ *
+ * @param string $content The existing content.
+ *
+ * @return string The modified content including the plugin version.
+ */
+function admin_footer_version( $content ) {
+    if ( ! is_plugin_settings_page() ) {
+        return $content;
+    }
+
+    return sprintf(
+    /* translators: Plugin version. */
+        __( 'Version %s', 'link-verification-for-mastodon' ),
+        esc_html( VERSION )
+    );
+}
+
 add_action( 'admin_menu', 'OverEngineer\Mastodon\LinkVerification\Admin\add_admin_menu' );
 add_action( 'admin_init', 'OverEngineer\Mastodon\LinkVerification\Admin\settings_init' );
+
+add_filter( 'admin_footer_text', 'OverEngineer\Mastodon\LinkVerification\Admin\admin_footer_donation' );
+add_filter( 'update_footer', 'OverEngineer\Mastodon\LinkVerification\Admin\admin_footer_version', 11 );
