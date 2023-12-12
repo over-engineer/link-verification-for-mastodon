@@ -79,7 +79,7 @@ function render_field_mastodon_username() {
     <input type="text"
            name="mastodon_link_verification_settings[mastodon_username]"
            placeholder="@yourusername@your.mastodon.instance"
-           value="<?php echo $username; ?>" />
+           value="<?php echo esc_attr( $username ); ?>" />
 
     <?php
 }
