@@ -72,13 +72,14 @@ function settings_init() {
 }
 
 function render_field_mastodon_username() {
-    $options = get_option( 'mastodon_link_verification_settings' );
+    $options  = get_option( 'mastodon_link_verification_settings' );
+    $username = $options['mastodon_username'] ?? '';
     ?>
 
     <input type="text"
            name="mastodon_link_verification_settings[mastodon_username]"
            placeholder="@yourusername@your.mastodon.instance"
-           value="<?php echo $options['mastodon_username']; ?>" />
+           value="<?php echo esc_attr( $username ); ?>" />
 
     <?php
 }
