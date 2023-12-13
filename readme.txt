@@ -4,9 +4,9 @@ Plugin URI: https://over-engineer.com/projects/link-verification-for-mastodon
 Contributors: overengineer
 Tags: mastodon, fediverse, social
 Requires at least: 4.4
-Tested up to: 6.2
+Tested up to: 6.4
 Requires PHP: 5.6.20
-Stable Tag: 1.1.1
+Stable Tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,11 @@ Supporting me is 100% optional. The plugin is free and will always be free. Howe
 1. Plugin settings
 
 == Changelog ==
+
+= 1.1.2: December 13, 2023 =
+
+* Set default values to avoid PHP warnings when the plugin is activated for the first time (thanks to @jeherve)
+* Escape Mastodon usernames in the plugin’s settings page (thanks to @jeherve)
 
 = 1.1.1: April 15, 2023 =
 
