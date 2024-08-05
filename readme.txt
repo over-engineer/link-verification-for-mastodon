@@ -64,6 +64,10 @@ Supporting me is 100% optional. The plugin is free and will always be free. Howe
 
 == Changelog ==
 
+= 1.1.3: August 5, 2024 =
+
+* Fix verification tag when Mastodon username is empty
+
 = 1.1.2: December 13, 2023 =
 
 * Set default values to avoid PHP warnings when the plugin is activated for the first time (thanks to @jeherve)
