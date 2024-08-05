@@ -3,7 +3,7 @@
  * Plugin Name: Link Verification for Mastodon
  * Plugin URI: https://over-engineer.com/projects/link-verification-for-mastodon
  * Description: A WordPress plugin to quickly verify a link on your Mastodon profile.
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author: overengineer
  * Author URI: https://over-engineer.com/
  * Text Domain: link-verification-for-mastodon
@@ -48,7 +48,7 @@ if ( ! class_exists( 'Plugin' ) ) :
         /**
          * @var string Plugin version number.
          */
-        private $version = '1.1.3';
+        private $version = '1.1.4';
 
         /**
          * @return void
