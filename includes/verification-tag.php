@@ -65,7 +65,7 @@ function add_verification_tag( $mastodon_username ) {
 function add_verification_tags() {
     $options           = get_option( 'mastodon_link_verification_settings' );
     $mastodon_username = $options['mastodon_username'] ?? '';
-    $mastodon_username = apply_filters( 'mastodon_link_verification_username', $options['mastodon_username'] );
+    $mastodon_username = apply_filters( 'mastodon_link_verification_username', $mastodon_username );
 
     if ( empty( $mastodon_username ) ) {
         // Mastodon username is not set, bail early

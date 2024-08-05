@@ -6,7 +6,7 @@ Tags: mastodon, fediverse, social
 Requires at least: 4.4
 Tested up to: 6.4
 Requires PHP: 5.6.20
-Stable Tag: 1.1.2
+Stable Tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,10 @@ Supporting me is 100% optional. The plugin is free and will always be free. Howe
 1. Plugin settings
 
 == Changelog ==
+
+= 1.1.3: August 5, 2024 =
+
+* Fix verification tag when Mastodon username is empty
 
 = 1.1.2: December 13, 2023 =
 
